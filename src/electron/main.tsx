@@ -363,19 +363,11 @@ if (!handleSquirrelEvent()) {
         label: i18n._(/* i18n */ { id: 'Help' }),
         role: 'help',
         submenu: [
-          {
-            label: i18n._(/* i18n */ { id: 'Chia Blockchain Wiki' }),
-            click: () => {
-              openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/wiki',
-              );
-            },
-          },
-          {
+         {
             label: i18n._(/* i18n */ { id: 'Frequently Asked Questions' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/wiki/FAQ',
+                'https://floracoin.farm/faq',
               );
             },
           },
@@ -383,7 +375,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Release Notes' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/releases',
+                'https://github.com/Flora-Network/flora-blockchain/releases',
               );
             },
           },
@@ -391,7 +383,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Contribute on GitHub' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/blob/master/CONTRIBUTING.md',
+                'https://github.com/Flora-Network/flora-blockchain/blob/master/CONTRIBUTING.md',
               );
             },
           },
@@ -402,20 +394,20 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Report an Issue...' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/issues',
+                'https://github.com/Flora-Network/flora-blockchain/issues',
               );
             },
           },
           {
-            label: i18n._(/* i18n */ { id: 'Chat on KeyBase' }),
+            label: i18n._(/* i18n */ { id: 'DISCORD' }),
             click: () => {
-              openExternal('https://keybase.io/team/chia_network.public');
+              openExternal('https://discord.gg/82K4jFvNEy');
             },
           },
           {
             label: i18n._(/* i18n */ { id: 'Follow on Twitter' }),
             click: () => {
-              openExternal('https://twitter.com/chia_project');
+              openExternal('https://twitter.com/coinflora');
             },
           },
         ],

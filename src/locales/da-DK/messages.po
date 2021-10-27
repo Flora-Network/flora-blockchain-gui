@@ -23,8 +23,12 @@ msgid "(Optional)"
 msgstr "(Valgfri)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Vil du udforske Chias blokke yderligerer? Se <0>Chia Explorer</0> bygget af en open source udvikler."
+#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
+#~ msgstr "*Vil du udforske Chias blokke yderligerer? Se <0>Chia Explorer</0> bygget af en open source udvikler."
+
+#: src/components/farm/FarmLatestBlockChallenges.tsx:64
+msgid "*Want to explore Flora’s blocks further? Check out <0>Flora Explorer</0> built by an open source developer."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -46,10 +50,10 @@ msgstr "128 buckets er anbefalet"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "En harvester er en service der kører på en maskine hvor plot filen(filerne) er opbevaret. En farmer og harvester snakker med en fuld node for at følge kædens nuværende form. Se dit netværk af tilsluttede harvesters her under Lær mere"
 
-#: src/electron/main.tsx:431
-#: src/electron/main.tsx:518
-msgid "About Chia Blockchain"
-msgstr "Om Chia Blockchain"
+#: src/electron/main.tsx:423
+#: src/electron/main.tsx:510
+msgid "About Flora Blockchain"
+msgstr "Om Flora Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -96,7 +100,7 @@ msgstr "Tilføj Plot til Kø"
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
 #: src/components/plot/PlotHeader.tsx:63
 #: src/components/plot/add/PlotAdd.tsx:160
-#: src/components/plot/overview/PlotOverviewHero.tsx:54
+#: src/components/plot/overview/PlotOverviewHero.tsx:48
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:230
 #: src/components/plotNFT/PlotNFTCard.tsx:272
 msgid "Add a Plot"
@@ -234,8 +238,12 @@ msgid "Block VDF Iterations"
 msgstr "Blok VDF iterationer"
 
 #: src/components/block/Block.jsx:337
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Block ved højde {0} i Chia blockchainen"
+#~ msgid "Block at height {0} in the Flora blockchain"
+#~ msgstr "Block ved højde {0} i Flora blockchainen"
+
+#: src/components/block/Block.jsx:337
+msgid "Block at height {0} in the Flora blockchain"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -291,7 +299,7 @@ msgstr "Kan sikkerhedskopieres af et mnemonisk seed"
 #: src/components/farm/FarmManageFarmingRewards.tsx:200
 #: src/components/fullNode/FullNodeAddConnection.tsx:89
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:128
-#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:87
+#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:85
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:30
 #: src/components/selectKey/SelectKey.tsx:138
 #: src/components/settings/ChangePassphrasePrompt.tsx:240
@@ -335,20 +343,20 @@ msgid "Change Pool"
 msgstr "Ændre Pool"
 
 #: src/electron/main.tsx:410
-msgid "Chat on KeyBase"
-msgstr "Chat på KeyBase"
+#~ msgid "Chat on KeyBase"
+#~ msgstr "Chat på KeyBase"
 
-#: src/electron/main.tsx:428
+#: src/electron/main.tsx:420
 msgid "Chia"
 msgstr "Chia"
 
 #: src/electron/main.tsx:367
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchain Wiki"
+#~ msgid "Chia Blockchain Wiki"
+#~ msgstr "Chia Blockchain Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
-msgid "Chia Wallet"
-msgstr "Chia Pung"
+#~ msgid "Chia Wallet"
+#~ msgstr "Chia Pung"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -447,7 +455,7 @@ msgstr "Forbind"
 msgid "Connect to other peers"
 msgstr "Forbind til andre noder"
 
-#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:116
+#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:114
 msgid "Connect to pool"
 msgstr "Forbind til pool"
 
@@ -477,7 +485,7 @@ msgstr "Forbindelses Type"
 msgid "Connections"
 msgstr "Forbindelser"
 
-#: src/electron/main.tsx:391
+#: src/electron/main.tsx:383
 msgid "Contribute on GitHub"
 msgstr "Bidrag på GitHub"
 
@@ -639,6 +647,10 @@ msgstr "ADVARSEL: permanent sletning af privat nøgle"
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
+#: src/electron/main.tsx:402
+msgid "DISCORD"
+msgstr ""
+
 #: src/components/farm/FarmLastAttemptedProof.tsx:32
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
@@ -750,7 +762,7 @@ msgstr "Distribueret Identitet"
 #~ msgstr "Distributed Identity Options"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:52
-#: src/components/plot/overview/PlotOverviewHero.tsx:69
+#: src/components/plot/overview/PlotOverviewHero.tsx:63
 msgid "Do you have existing plots on this machine? <0>Add Plot Directory</0>"
 msgstr "Har du eksisterende plotfiler på denne maskine? <0>Tilføj Plot Folder</0>"
 
@@ -797,8 +809,12 @@ msgid "Enter a strong passphrase to secure your keys:"
 msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:146
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Indtast dine 24 mnemoniske ord fra din backup for at gendanne din Chia pung."
+#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Flora wallet."
+#~ msgstr "Indtast dine 24 mnemoniske ord fra din backup for at gendanne din Flora pung."
+
+#: src/components/wallet/WalletImport.tsx:146
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Flora wallet."
+msgstr ""
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:118
 msgid "Enter your passphrase:"
@@ -815,8 +831,12 @@ msgid "Error"
 msgstr "Fejl"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Fejl: Kan ikke sende chia til en farvet addresse. Venligst indtast en chia addresse."
+#~ msgid "Error: Cannot send flora to coloured address. Please enter a flora address."
+#~ msgstr "Fejl: Kan ikke sende flora til en farvet addresse. Venligst indtast en flora addresse."
+
+#: src/components/wallet/standard/WalletStandard.tsx:450
+msgid "Error: Cannot send flora to coloured address. Please enter flora address."
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -925,7 +945,7 @@ msgstr "Farmer Status"
 
 #: src/components/core/components/Fee/Fee.tsx:48
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
-#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
+#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:145
 #: src/components/pool/PoolInfo.tsx:17
 #: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
@@ -938,7 +958,7 @@ msgid "Fee"
 msgstr "Gebyr"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXCH)"
+#~ msgid "Fee (TXFL)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -958,7 +978,7 @@ msgstr "Gebyr Beløb"
 #~ msgstr ""
 
 #: src/electron/main.tsx:264
-#: src/electron/main.tsx:465
+#: src/electron/main.tsx:457
 msgid "File"
 msgstr "Fil"
 
@@ -978,11 +998,15 @@ msgstr "Endelig folder placering"
 msgid "Finished"
 msgstr "Færdig"
 
-#: src/electron/main.tsx:416
+#: src/components/wallet/standard/WalletStandard.tsx:642
+msgid "Flora Wallet"
+msgstr ""
+
+#: src/electron/main.tsx:408
 msgid "Follow on Twitter"
 msgstr "Følg på Twitter"
 
-#: src/electron/main.tsx:375
+#: src/electron/main.tsx:367
 msgid "Frequently Asked Questions"
 msgstr "Ofte Stillet Spørgsmål"
 
@@ -1148,16 +1172,24 @@ msgid "Join a Pool"
 msgstr "Tilslut til en Pulje"
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
-msgstr "Tilslut en pulje og få stabil XCH farm belønninger. Gennemsnitsudbyttet er det samme, med en del mindrer udsving."
+#~ msgid "Join a pool and get consistent XFL farming rewards. The average returns are the same, but it is much less volatile."
+#~ msgstr "Tilslut en pulje og få stabil XFL farm belønninger. Gennemsnitsudbyttet er det samme, med en del mindrer udsving."
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
-msgstr "Tilslut en pulje og få stabil XCH farm belønninger. Gennemsnitsudbyttet er det samme, med en del mindrer udsving. Tildel dine plots til en plot NFT. Du kan nemt skifte imellem puljer uden at skulle re-plotte."
+msgid "Join a pool and get consistent XFL farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgstr "Tilslut en pulje og få stabil XFL farm belønninger. Gennemsnitsudbyttet er det samme, med en del mindrer udsving. Tildel dine plots til en plot NFT. Du kan nemt skifte imellem puljer uden at skulle re-plotte."
+
+#: src/components/plot/add/PlotAddNFT.tsx:44
+msgid "Join a pool and get consistent XFL farming rewards. The average returns are the same, but it is much less volatile."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:133
-msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
-msgstr "Tilslut en pulje og få stabil XCH farm belønninger. Opret en plot NFT og tildel dine nye plot filer til en gruppe."
+#~ msgid "Join a pool and get more consistent XFL farming rewards. Create a plot NFT and assign your new plots to a group."
+#~ msgstr "Tilslut en pulje og få stabil XFL farm belønninger. Opret en plot NFT og tildel dine nye plot filer til en gruppe."
+
+#: src/components/plot/add/PlotAddNFT.tsx:133
+msgid "Join a pool and get more consistent XFL farming rewards. Create a plot NFT and assign your new plots to a group."
+msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 msgid "K-Size"
@@ -1193,7 +1225,6 @@ msgstr "Sidste Blok Udfordring"
 msgid "Launcher Id"
 msgstr "Starter Id"
 
-#: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:104
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:119
 msgid "Learn More"
 msgstr "Lær mere"
@@ -1432,8 +1463,12 @@ msgid "Not found Plots"
 msgstr "Ikke fundet Plotfiler"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:188
-msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
-msgstr "Bemærk, at dette ikke ændrer din pulje udbetalingsadresser. Dette påvirker kun gamle plot filer af gammelt format, og 0,25XCH belønning for pulje plots."
+#~ msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XFL reward for pooling plots."
+#~ msgstr "Bemærk, at dette ikke ændrer din pulje udbetalingsadresser. Dette påvirker kun gamle plot filer af gammelt format, og 0,25XFL belønning for pulje plots."
+
+#: src/components/farm/FarmManageFarmingRewards.tsx:188
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XFL reward for pooling plots."
+msgstr ""
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:118
 #: src/components/plotNFT/PlotNFTCard.tsx:160
@@ -1449,7 +1484,7 @@ msgid "Number of threads"
 msgstr "Nummer af tråde"
 
 #: src/components/core/components/ConfirmDialog/ConfirmDialog.tsx:87
-#: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:115
+#: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:108
 msgid "OK"
 msgstr "OK"
 
@@ -1757,8 +1792,12 @@ msgid "Plots Passed Filter"
 msgstr "Plotfiler Passeret Filter"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Plotfiler er allokeret plads på din harddisk brugt til at farme og tjene Chia. <0>Lær mere</0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+#~ msgstr "Plotfiler er allokeret plads på din harddisk brugt til at farme og tjene Chia. <0>Lær mere</0>"
+
+#: src/components/plot/overview/PlotOverviewHero.tsx:35
+msgid "Plots are allocated space on your hard drive used to farm and earnFlora."
+msgstr ""
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
@@ -2006,7 +2045,7 @@ msgid "Recover Wallet"
 msgstr "Gendan Pung"
 
 #: src/components/plot/PlotHeader.tsx:78
-#: src/components/plot/overview/PlotOverviewHero.tsx:62
+#: src/components/plot/overview/PlotOverviewHero.tsx:56
 msgid "Refresh Plots"
 msgstr "Opdater Plotfiler"
 
@@ -2014,7 +2053,7 @@ msgstr "Opdater Plotfiler"
 msgid "Relative Lock Height"
 msgstr "Relativ Låsehøjde"
 
-#: src/electron/main.tsx:383
+#: src/electron/main.tsx:375
 msgid "Release Notes"
 msgstr "Udgivelses Noter"
 
@@ -2036,7 +2075,7 @@ msgstr "Fjerner"
 msgid "Rename"
 msgstr "Omdøb"
 
-#: src/electron/main.tsx:402
+#: src/electron/main.tsx:394
 msgid "Report an Issue..."
 msgstr "Raportér et Problem..."
 
@@ -2152,9 +2191,9 @@ msgstr "Valgt gendannelsesfil:"
 msgid "Self Pooling"
 msgstr "Selv Pulje"
 
-#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-msgid "Self pool. When you win a block you will earn XCH rewards."
-msgstr "Selvpulje. Når du vinder en blok, vil du tjene XCH belønning."
+#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:103
+msgid "Self pool. When you win a block you will earn XFL rewards."
+msgstr "Selvpulje. Når du vinder en blok, vil du tjene XFL belønning."
 
 #: src/components/trading/CreateOffer.jsx:164
 #: src/components/trading/TradesTable.tsx:47
@@ -2231,14 +2270,18 @@ msgid "Skips adding a final directory to harvester for farming"
 msgstr "Skipper tilføjelse af endelig mappe til harvesteren for farmning"
 
 #: src/components/pool/PoolHero.tsx:26
-msgid "Smooth out your XCH farming rewards by joining a pool."
-msgstr "Glat dine XCH belønninger ud ved at deltage i en pulje."
+#~ msgid "Smooth out your XFL farming rewards by joining a pool."
+#~ msgstr "Glat dine XFL belønninger ud ved at deltage i en pulje."
+
+#: src/components/pool/PoolHero.tsx:26
+msgid "Smooth out your XFL farming rewards by joining a pool."
+msgstr ""
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:60
 msgid "Something went wrong"
 msgstr "Noget gik galt"
 
-#: src/electron/main.tsx:479
+#: src/electron/main.tsx:471
 msgid "Speech"
 msgstr "Tale"
 
@@ -2267,8 +2310,13 @@ msgstr "Forbrugsinterval Længde (nummer af blokke)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Forbrugsgrænse (chia per interval): {0}"
+#~ msgid "Spending Limit (chia per interval): {0}"
+#~ msgstr "Forbrugsgrænse (chia per interval): {0}"
+
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
+msgid "Spending Limit (flora per interval): {0}"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -2316,8 +2364,8 @@ msgstr "Status:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Flora blockchain"
+#~ msgstr "Sub Block at height {0} in the Flora blockchain"
 
 #: src/components/app/AppPassPrompt.tsx:202
 #: src/components/wallet/did/WalletDID.tsx:889
@@ -2350,23 +2398,23 @@ msgstr "Synkroniserer <0/>/<1/>"
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXCH Block Rewards"
+#~ msgid "TXFL Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXCH Farming Rewards"
+#~ msgid "TXFL Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXCH Fees Collected"
+#~ msgid "TXFL Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXCH User Fees"
-#~ msgstr "TXCH User Fees"
+#~ msgid "TXFL User Fees"
+#~ msgstr "TXFL User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXCH User Transaction Fees"
+#~ msgid "TXFL User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2452,8 +2500,8 @@ msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Det samlede transaktionsgebyr i denne blok. Belønnet til farmeren."
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:107
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XCH address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-msgstr "Dette er instruktionerne for hvordan farmeren ønsker at blive betalt. Som standard vil dette være en XCH-adresse, men det kan indstilles til en vilkårlig streng med en størrelse på mindre end 1024 tegn, så det kan repræsentere en anden blockchain eller betalingssystem-id."
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XFL address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgstr "Dette er instruktionerne for hvordan farmeren ønsker at blive betalt. Som standard vil dette være en XFL-adresse, men det kan indstilles til en vilkårlig streng med en størrelse på mindre end 1024 tegn, så det kan repræsentere en anden blockchain eller betalingssystem-id."
 
 #: src/components/plot/PlotsFailed.tsx:40
 msgid "These plots are invalid, you might want to delete them."
@@ -2475,8 +2523,12 @@ msgid "This feature is available only from the GUI."
 msgstr "Denne funktion er kun tilgængelig fra GUI."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Dette er beløbet af Chia du kan bruge på transaktioner nu. Dette eksluderer afventende belønninger fra farmede gevinster, afventende indkomne transaktioner, og Chia du lige har brugt, men ikke er skrevet til blokkæden endnu."
+#~ msgid "This is the amount of Flora that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Flora that you have just spent but is not yet in the blockchain."
+#~ msgstr "Dette er beløbet af Flora du kan bruge på transaktioner nu. Dette eksluderer afventende belønninger fra farmede gevinster, afventende indkomne transaktioner, og Flora du lige har brugt, men ikke er skrevet til blokkæden endnu."
+
+#: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
+msgid "This is the amount of Flora that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Flora that you have just spent but is not yet in the blockchain."
+msgstr ""
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2495,8 +2547,12 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Dette er tidstemplet fra blokken da den blev farmet af farmeren, hvilket er før den blev færdiggjordt med et bevis af tid"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Dette er det totale beløb af chia i blokkæden ved den nuværende sidste blok, som er kontrolleret af din private nøgle. Dette inkluderer frosne farmer gevinster, men ikke afventende indkommende og udgående transaktioner."
+#~ msgid "This is the total amount of flora in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+#~ msgstr "Dette er det totale beløb af flora i blokkæden ved den nuværende sidste blok, som er kontrolleret af din private nøgle. Dette inkluderer frosne farmer gevinster, men ikke afventende indkommende og udgående transaktioner."
+
+#: src/components/wallet/card/WalletCardTotalBalance.tsx:34
+msgid "This is the total amount of flora in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr ""
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2541,8 +2597,12 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Denne handel blev inkluderet i blokkæden i denne blok"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Denne version af Chia er ikke længere kompatibel med netværket og kan ikke farme."
+#~ msgid "This version of Flora is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "Denne version af Flora er ikke længere kompatibel med netværket og kan ikke farme."
+
+#: src/components/app/AppTimeBombAlert.tsx:19
+msgid "This version of Flora is no longer compatible with the blockchain and can not safely farm."
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2567,7 +2627,7 @@ msgid "Total Balance"
 msgstr "Total Saldo"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#~ msgid "Total Flora Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2684,7 +2744,7 @@ msgstr "VDF blok iterationer"
 msgid "Value seems high"
 msgstr "Værdi virker høj"
 
-#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:156
+#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:154
 msgid "Verify Pool Details"
 msgstr "Verificér Pulje Detaljer"
 
@@ -2788,8 +2848,12 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr "Vil du deltage i en pulje? Opret en plot NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Vil du tjene flere Chia? Tilføj flere plotfiler til din farmer."
+#~ msgid "Want to earn more Chia? Add more plots to your farm."
+#~ msgstr "Vil du tjene flere Chia? Tilføj flere plotfiler til din farmer."
+
+#: src/components/plot/overview/PlotOverviewPlots.tsx:139
+msgid "Want to earn more Flora? Add more plots to your farm."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2817,8 +2881,12 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Vægt er den totale tilførte sværhedsgrad af alle blokke op til og indklusiv denne blok"
 
 #: src/components/selectKey/SelectKey.tsx:183
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Velkommen til Chia. Venligst log ind med en eksisterende nøgle, eller generer en ny nøgle."
+#~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+#~ msgstr "Velkommen til Chia. Venligst log ind med en eksisterende nøgle, eller generer en ny nøgle."
+
+#: src/components/selectKey/SelectKey.tsx:183
+msgid "Welcome to Flora. Please log in with an existing key, or create a new key."
+msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2892,8 +2960,8 @@ msgid "You need to claim your rewards first"
 msgstr "Du skal først gøre krav på dine belønninger"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Flora application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Flora application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -2950,7 +3018,13 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:177
 #: src/components/settings/ChangePassphrasePrompt.tsx:227
 #: src/components/settings/SetPassphrasePrompt.tsx:197
-msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+#~ msgid "Your passphrase can be stored in your system's secure credential store. Flora will be able to access your keys without prompting for your passphrase."
+#~ msgstr ""
+
+#: src/components/app/AppKeyringMigrator.tsx:177
+#: src/components/settings/ChangePassphrasePrompt.tsx:227
+#: src/components/settings/SetPassphrasePrompt.tsx:197
+msgid "Your passphrase can be stored in your system's secure credential store. Flora will be able to access your keys without prompting for your passphrase."
 msgstr ""
 
 #: src/components/settings/Settings.tsx:80
@@ -3023,8 +3097,12 @@ msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Blok Gevinst"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Total Chia Farmet"
+#~ msgid "{currencyCode} Total Flora Farmed"
+#~ msgstr "{currencyCode} Total Flora Farmet"
+
+#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
+msgid "{currencyCode} Total Flora Farmed"
+msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

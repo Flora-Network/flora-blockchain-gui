@@ -613,7 +613,7 @@ const BalanceCardSubSection = (props) => {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {mojo_to_chia_string(props.balance)} TXCH
+            {mojo_to_chia_string(props.balance)} TXFL
           </Typography>
         </Box>
       </Box>
@@ -951,7 +951,7 @@ const CreateAttest = (props) => {
       return;
     }
     let address = puzhash_input.value.trim();
-    if (address.substring(0, 12) === 'chia_addr://') {
+    if (address.substring(0, 12) === 'flora_addr://') {
       address = address.substring(12);
     }
     if (address.startsWith('0x') || address.startsWith('0X')) {
@@ -1027,7 +1027,7 @@ const CashoutCard = (props) => {
   function cashout() {
     let puzzlehash = address_input.value.trim();
 
-    if (puzzlehash.slice(0, 12) === 'chia_addr://') {
+    if (puzzlehash.slice(0, 12) === 'flora_addr://') {
       puzzlehash = puzzlehash.slice(12);
     }
     if (puzzlehash.startsWith('0x') || puzzlehash.startsWith('0X')) {

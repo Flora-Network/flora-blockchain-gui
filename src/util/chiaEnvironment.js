@@ -47,7 +47,7 @@ const getExecutablePath = (dist_file) => {
 
 const getChiaVersion = () => {
   let version = null;
-  const exePath = getExecutablePath('chia');
+  const exePath = getExecutablePath('flora');
   // first see if we can get a chia exe in a standard location relative to where we are
   try {
     version = child_process

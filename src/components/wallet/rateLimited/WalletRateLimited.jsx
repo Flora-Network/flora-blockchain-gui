@@ -399,7 +399,7 @@ const RLDetailsCard = (props) => {
             <Box flexGrow={1}>
               <Typography variant="subtitle1">
                 <Trans>
-                  Spending Limit (chia per interval):{' '}
+                  Spending Limit (flora per interval):{' '}
                   {mojo_to_chia_string(limit)}
                 </Trans>
               </Typography>
@@ -446,7 +446,7 @@ const RLDetailsCard = (props) => {
             <Box flexGrow={1}>
               <Typography variant="subtitle1">
                 <Trans>
-                  Spending Limit (chia per interval):{' '}
+                  Spending Limit (flora per interval):{' '}
                   {mojo_to_chia_string(limit)}
                 </Trans>
               </Typography>

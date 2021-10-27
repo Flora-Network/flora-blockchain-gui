@@ -273,7 +273,7 @@ function BalanceCard(props: BalanceCardProps) {
         balance={balance}
         tooltip={
           <Trans>
-            This is the total amount of chia in the blockchain at the current
+            This is the total amount of flora in the blockchain at the current
             peak sub block that is controlled by your private keys. It includes
             frozen farming rewards, but not pending incoming and outgoing
             transactions.
@@ -285,9 +285,9 @@ function BalanceCard(props: BalanceCardProps) {
         balance={balance_spendable}
         tooltip={
           <Trans>
-            This is the amount of Chia that you can currently use to make
+            This is the amount of Flora that you can currently use to make
             transactions. It does not include pending farming rewards, pending
-            incoming transactions, and Chia that you have just spent but is not
+            incoming transactions, and Flora that you have just spent but is not
             yet in the blockchain.
           </Trans>
         }
@@ -448,7 +448,7 @@ function SendCard(props: SendCardProps) {
       openDialog(
         <AlertDialog>
           <Trans>
-            Error: Cannot send chia to coloured address. Please enter a chia
+            Error: Cannot send flora to coloured address. Please enter flora
             address.
           </Trans>
         </AlertDialog>,
@@ -456,7 +456,7 @@ function SendCard(props: SendCardProps) {
       return;
     }
 
-    if (address.slice(0, 12) === 'chia_addr://') {
+    if (address.slice(0, 12) === 'flora_addr://') {
       address = address.slice(12);
     }
     if (address.startsWith('0x') || address.startsWith('0X')) {
@@ -639,7 +639,7 @@ export default function StandardWallet(props: StandardWalletProps) {
         <Flex flexGrow={1}>
           {showTitle && (
             <Typography variant="h5" gutterBottom>
-              <Trans>Chia Wallet</Trans>
+              <Trans>Flora Wallet</Trans>
             </Typography>
           )}
         </Flex>

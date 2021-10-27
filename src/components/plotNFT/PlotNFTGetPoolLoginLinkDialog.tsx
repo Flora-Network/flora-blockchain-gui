@@ -96,13 +96,6 @@ export default function PlotNFTGetPoolLoginLinkDialog(props: Props) {
                   pool's website. It contains a signature using the farmer's key
                   from the plot NFT. Not all pools support this feature.
                 </Trans>{' '}
-                <Link
-                  target="_blank"
-                  href="https://github.com/Chia-Network/pool-reference/blob/main/SPECIFICATION.md#get-login"
-                  noWrap
-                >
-                  <Trans>Learn More</Trans>
-                </Link>
               </Typography>
             </Flex>
           )}
