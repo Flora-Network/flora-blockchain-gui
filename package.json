@@ -1,6 +1,6 @@
 {
-    "name": "flora-blockchain",
-    "author": "Chia Network <github@floracoin.farm> (https://floracoin.farm/)",
+    "name": "chia-blockchain",
+    "author": "Chia Network <hello@chia.net> (https://chia.net/)",
     "description": "GUI for Flora Blockchain",
     "productName": "Flora Blockchain",
     "private": true,
@@ -168,5 +168,5 @@
             "last 1 safari version"
         ]
     },
-    "version": "0.2.12"
+    "version": "1.2.6-dev67"
 }
